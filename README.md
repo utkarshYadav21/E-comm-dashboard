@@ -20,6 +20,10 @@ Welcome to our E-commerce Dashboard repository! This dashboard allows users to m
 - **Database:** MongoDB, Mongoose
 - **Authentication:** JWT tokens
 
+## Demo
+
+https://github.com/utkarshYadav21/E-comm-dashboard/assets/145287711/5ab88e07-b62b-41e2-b892-574a89f953c1
+
 ## Installation
 
 1. Clone this repository to your local machine.
