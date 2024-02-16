@@ -1,0 +1,143 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 15px;
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16;
+}
+
+.navbar {
+    background-color: #d68438;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #d68438;
+    color: white;
+}
+
+.inputBox {
+    display: block;
+    margin-top: 10px;
+    width: 300px;
+    padding: 7px;
+    border: 1px solid #36846b;
+}
+
+.logo {
+    width: 45px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.nav-right {
+    text-align: right;
+}
+
+.delete-update-btn {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #36846b;
+    border: none;
+    font-size: 14;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.update-link {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-btn,
+.Login-btn,
+.addProduct-btn {
+    margin-top: 10px;
+    padding: 7px;
+    background-color: #36846b;
+    border: none;
+    font-size: 14;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.invalid-input {
+    display: block;
+    color: red;
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    border: 2px solid #36846b;
+    margin: 20px 20px 20px 50px;
+    position: relative;
+}
+
+.card-content {
+    display: block;
+    text-align: center;
+    padding: 3px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.center-delete-btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.delete-btn {
+    width: 25px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.PList-head {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.search-field{
+    position:absolute;
+    right: 80px;
+    top:9px;
+    width: 250px;
+    height: 19px;
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+}
+
